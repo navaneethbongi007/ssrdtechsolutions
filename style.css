@@ -430,6 +430,26 @@ body {
     margin-bottom: var(--spacing-sm);
 }
 
+.industry-icon-img {
+    margin-bottom: var(--spacing-sm);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.industry-icon-img img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+    transition: var(--transition);
+}
+
+.industry-card:hover .industry-icon-img img {
+    transform: scale(1.1);
+}
+
 .industry-card h4 {
     font-size: var(--text-lg);
     color: var(--color-primary);
