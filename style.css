@@ -439,9 +439,18 @@ body {
 }
 
 .nav-logo {
-    height: 80px;
+    height: 60px;
+    /* Default for mobile/smaller screens */
     width: auto;
     display: block;
+    transition: var(--transition);
+}
+
+@media (min-width: 1024px) {
+    .nav-logo {
+        height: 80px;
+        /* Big on desktop */
+    }
 }
 
 /* ============================================
@@ -794,12 +803,19 @@ body {
 }
 
 .footer-logo-img {
-    height: 100px;
-    /* Larger logo for footer */
+    height: 80px;
+    /* Default for mobile */
     width: auto;
     filter: brightness(0) invert(1);
-    /* Make logo white for dark footer */
     opacity: 0.9;
+    transition: var(--transition);
+}
+
+@media (min-width: 1024px) {
+    .footer-logo-img {
+        height: 120px;
+        /* Even bigger on desktop */
+    }
 }
 
 .footer p {
