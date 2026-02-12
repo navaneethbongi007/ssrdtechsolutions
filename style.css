@@ -52,6 +52,7 @@ html {
     --text-base: 1rem;
     --text-lg: 1.125rem;
     --text-xl: 1.25rem;
+    --text-hg: 2.9rem;
     --text-2xl: 1.5rem;
     --text-3xl: 1.875rem;
     --text-4xl: 2.25rem;
@@ -117,7 +118,7 @@ body {
 }
 
 .logo h2 {
-    font-size: var(--text-xl);
+    font-size: var(--text-hg);
     font-weight: var(--font-weight-bold);
     color: var(--color-primary);
     letter-spacing: -0.5px;
@@ -706,6 +707,14 @@ body {
     background: var(--color-bg);
     border-color: var(--color-accent-blue);
     transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.tech-icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-sm);
+    display: inline-block;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
 }
 
 .tech-item h4 {
