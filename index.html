@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 </head>
 
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="nav-wrapper">
                 <div class="logo">
-                    <h2>SSRD Tech Solutions LLP</h2>
+                    <h2>SSRD Tech Solutions</h2>
                 </div>
                 <button class="mobile-menu-toggle" aria-label="Toggle menu">
                     <span></span>
@@ -30,9 +30,9 @@
                 <ul class="nav-menu">
                     <li><a href="#services">Services</a></li>
                     <li><a href="#industries">Industries</a></li>
-                    <li><a href="#why-ssrd">Why SSRD</a></li>
+                    <li><a href="#why-ssrd">Why Us</a></li>
                     <li><a href="#approach">Approach</a></li>
-                    <li><a href="#contact" class="cta-nav">Contact Us</a></li>
+                    <li><a href="#contact" class="cta-btn">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -42,19 +42,16 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
+                <h1 class="hero-title">Powering Enterprise Digital Transformation</h1>
                 <p class="hero-subtitle">Global AI & Digital Engineering Consulting Firm</p>
-                <h1 class="hero-title">Powering Enterprise Digital Transformation with AI, Cloud & Scalable Engineering
-                </h1>
-                <p class="hero-description">SSRD Tech Solutions LLP is a global technology consulting company delivering
-                    enterprise-grade AI solutions, cloud transformation services, and scalable digital engineering
-                    systems. We help organizations modernize legacy infrastructure, implement intelligent automation,
-                    and build secure, high-performance applications that drive measurable business outcomes.</p>
-                <p class="hero-tagline">Whether you are a fast-growing enterprise or a global organization undergoing
-                    digital transformation, SSRD delivers future-ready technology solutions aligned with your strategic
-                    goals.</p>
+                <p class="hero-description">
+                    SSRD Tech Solutions LLP delivers enterprise-grade AI solutions, cloud transformation services,
+                    and scalable digital engineering systems. We help organizations modernize legacy infrastructure,
+                    implement intelligent automation, and build secure, high-performance applications.
+                </p>
                 <div class="hero-cta">
-                    <a href="#contact" class="btn btn-primary">Speak with Our Enterprise Consultants</a>
-                    <a href="#services" class="btn btn-secondary">Explore Our Digital Solutions</a>
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-outline">Our Services</a>
                 </div>
             </div>
         </div>
@@ -65,11 +62,14 @@
         <div class="container">
             <div class="section-header">
                 <h2>Enterprise Digital Transformation Services</h2>
+                <p>Comprehensive technology solutions for modern enterprises</p>
             </div>
 
-            <!-- AI Solutions -->
-            <div class="service-card">
-                <div class="service-icon">🤖</div>
+            <!-- AI Solutions - Image Left -->
+            <div class="service-row">
+                <div class="service-image">
+                    <img src="images/ai-solutions.png" alt="AI Solutions for Enterprises">
+                </div>
                 <div class="service-content">
                     <h3>AI Solutions for Enterprises</h3>
                     <p class="service-intro">We design and implement enterprise AI systems that unlock operational
@@ -81,16 +81,16 @@
                         <li>AI-driven Process Automation</li>
                         <li>Enterprise Knowledge Management Systems</li>
                     </ul>
-                    <p class="service-outcome">Our AI consulting services enable organizations to reduce operational
-                        costs, improve decision-making, and enhance customer experiences.</p>
                 </div>
             </div>
 
-            <!-- Cloud Transformation -->
-            <div class="service-card">
-                <div class="service-icon">☁️</div>
+            <!-- Cloud Transformation - Image Right -->
+            <div class="service-row service-row-reverse">
+                <div class="service-image">
+                    <img src="images/cloud-transformation.png" alt="Cloud Transformation Services">
+                </div>
                 <div class="service-content">
-                    <h3>Cloud Transformation & Migration Services</h3>
+                    <h3>Cloud Transformation & Migration</h3>
                     <p class="service-intro">As a trusted cloud consulting partner, we help enterprises migrate,
                         modernize, and optimize their cloud environments.</p>
                     <ul class="service-list">
@@ -101,14 +101,14 @@
                         <li>Infrastructure as Code (IaC) Implementation</li>
                         <li>DevOps & CI/CD Automation</li>
                     </ul>
-                    <p class="service-outcome">We ensure scalability, resilience, and cost-efficiency across your cloud
-                        ecosystem.</p>
                 </div>
             </div>
 
-            <!-- Enterprise Application Development -->
-            <div class="service-card">
-                <div class="service-icon">💻</div>
+            <!-- Enterprise Application Development - Image Left -->
+            <div class="service-row">
+                <div class="service-image">
+                    <img src="images/app-development.png" alt="Enterprise Application Development">
+                </div>
                 <div class="service-content">
                     <h3>Enterprise Application Development</h3>
                     <p class="service-intro">We build secure, scalable, and high-performance enterprise applications.
@@ -121,14 +121,14 @@
                         <li>Mobile App Development (React Native)</li>
                         <li>Secure System Integrations</li>
                     </ul>
-                    <p class="service-outcome">Our engineering-first approach ensures robust architecture and long-term
-                        maintainability.</p>
                 </div>
             </div>
 
-            <!-- Legacy System Modernization -->
-            <div class="service-card">
-                <div class="service-icon">🔄</div>
+            <!-- Legacy System Modernization - Image Right -->
+            <div class="service-row service-row-reverse">
+                <div class="service-image">
+                    <img src="images/legacy-modernization.png" alt="Legacy System Modernization">
+                </div>
                 <div class="service-content">
                     <h3>Legacy System Modernization</h3>
                     <p class="service-intro">Modernize outdated systems without disrupting operations.</p>
@@ -139,8 +139,6 @@
                         <li>Performance Optimization</li>
                         <li>System Refactoring & Replatforming</li>
                     </ul>
-                    <p class="service-outcome">We help enterprises transition from legacy systems to scalable, modern
-                        digital platforms.</p>
                 </div>
             </div>
         </div>
@@ -150,37 +148,35 @@
     <section id="industries" class="industries">
         <div class="container">
             <div class="section-header">
-                <h2>Industries We Serve Globally</h2>
-                <p>SSRD Tech Solutions provides digital engineering solutions across industries:</p>
+                <h2>Industries We Serve</h2>
+                <p>Delivering digital engineering solutions across diverse sectors</p>
             </div>
             <div class="industries-grid">
-                <div class="industry-item">
+                <div class="industry-card">
                     <div class="industry-icon">🏥</div>
-                    <h4>Healthcare & PBM Technology</h4>
+                    <h4>Healthcare & PBM</h4>
                 </div>
-                <div class="industry-item">
+                <div class="industry-card">
                     <div class="industry-icon">💰</div>
-                    <h4>Financial Services & FinTech</h4>
+                    <h4>Financial Services</h4>
                 </div>
-                <div class="industry-item">
+                <div class="industry-card">
                     <div class="industry-icon">🛒</div>
                     <h4>Retail & E-Commerce</h4>
                 </div>
-                <div class="industry-item">
+                <div class="industry-card">
                     <div class="industry-icon">📊</div>
                     <h4>Enterprise SaaS</h4>
                 </div>
-                <div class="industry-item">
+                <div class="industry-card">
                     <div class="industry-icon">🚚</div>
                     <h4>Logistics & Supply Chain</h4>
                 </div>
-                <div class="industry-item">
+                <div class="industry-card">
                     <div class="industry-icon">🚀</div>
                     <h4>Technology Startups</h4>
                 </div>
             </div>
-            <p class="industries-note">Our solutions comply with global enterprise standards for security, scalability,
-                and reliability.</p>
         </div>
     </section>
 
@@ -192,24 +188,29 @@
             </div>
             <div class="features-grid">
                 <div class="feature-card">
+                    <div class="feature-number">01</div>
                     <h3>Enterprise-Grade Architecture</h3>
-                    <p>We design secure, scalable systems aligned with global IT governance standards.</p>
+                    <p>Secure, scalable systems aligned with global IT governance standards.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>AI-First Engineering Approach</h3>
-                    <p>We integrate artificial intelligence into core business systems for intelligent automation.</p>
+                    <div class="feature-number">02</div>
+                    <h3>AI-First Engineering</h3>
+                    <p>Integrate artificial intelligence into core business systems for intelligent automation.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Secure & Compliant Solutions</h3>
-                    <p>Security, data privacy, and regulatory compliance are embedded into every project.</p>
+                    <div class="feature-number">03</div>
+                    <h3>Secure & Compliant</h3>
+                    <p>Security, data privacy, and regulatory compliance embedded into every project.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Agile Delivery with Predictability</h3>
+                    <div class="feature-number">04</div>
+                    <h3>Agile Delivery</h3>
                     <p>Structured delivery models with transparency, milestones, and measurable KPIs.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Long-Term Strategic Partnership</h3>
-                    <p>We build sustainable technology ecosystems, not just short-term projects.</p>
+                    <div class="feature-number">05</div>
+                    <h3>Strategic Partnership</h3>
+                    <p>Build sustainable technology ecosystems, not just short-term projects.</p>
                 </div>
             </div>
         </div>
@@ -219,32 +220,32 @@
     <section id="approach" class="approach">
         <div class="container">
             <div class="section-header">
-                <h2>Our Digital Engineering Approach</h2>
-                <p class="approach-tagline">Discover → Architect → Build → Deploy → Optimize</p>
+                <h2>Our Approach</h2>
+                <p class="approach-subtitle">Discover → Architect → Build → Deploy → Optimize</p>
             </div>
-            <div class="approach-steps">
-                <div class="step">
-                    <div class="step-number">1</div>
+            <div class="approach-grid">
+                <div class="approach-step">
+                    <div class="step-number">01</div>
                     <h4>Discover</h4>
                     <p>Understand enterprise goals, constraints, and architecture</p>
                 </div>
-                <div class="step">
-                    <div class="step-number">2</div>
+                <div class="approach-step">
+                    <div class="step-number">02</div>
                     <h4>Architect</h4>
                     <p>Design secure, scalable, cloud-native solutions</p>
                 </div>
-                <div class="step">
-                    <div class="step-number">3</div>
+                <div class="approach-step">
+                    <div class="step-number">03</div>
                     <h4>Build</h4>
                     <p>Develop using modern engineering frameworks</p>
                 </div>
-                <div class="step">
-                    <div class="step-number">4</div>
+                <div class="approach-step">
+                    <div class="step-number">04</div>
                     <h4>Deploy</h4>
                     <p>Ensure seamless integration and reliability</p>
                 </div>
-                <div class="step">
-                    <div class="step-number">5</div>
+                <div class="approach-step">
+                    <div class="step-number">05</div>
                     <h4>Optimize</h4>
                     <p>Continuously improve performance and ROI</p>
                 </div>
@@ -252,55 +253,37 @@
         </div>
     </section>
 
-    <!-- Technology Expertise -->
+    <!-- Technology Stack -->
     <section class="technology">
         <div class="container">
             <div class="section-header">
                 <h2>Technology Expertise</h2>
             </div>
             <div class="tech-grid">
-                <div class="tech-category">
+                <div class="tech-item">
                     <h4>Frontend</h4>
                     <p>React, Next.js</p>
                 </div>
-                <div class="tech-category">
+                <div class="tech-item">
                     <h4>Backend</h4>
-                    <p>Node.js, .NET Core, Python</p>
+                    <p>Node.js, .NET, Python</p>
                 </div>
-                <div class="tech-category">
+                <div class="tech-item">
                     <h4>Mobile</h4>
                     <p>React Native</p>
                 </div>
-                <div class="tech-category">
+                <div class="tech-item">
                     <h4>Cloud</h4>
-                    <p>AWS, Microsoft Azure, Google Cloud</p>
+                    <p>AWS, Azure, Google Cloud</p>
                 </div>
-                <div class="tech-category">
+                <div class="tech-item">
                     <h4>AI & Data</h4>
-                    <p>OpenAI integrations, RAG systems, LangChain, ML pipelines</p>
+                    <p>OpenAI, RAG, LangChain</p>
                 </div>
-                <div class="tech-category">
+                <div class="tech-item">
                     <h4>DevOps</h4>
-                    <p>Docker, Kubernetes, CI/CD Automation</p>
+                    <p>Docker, Kubernetes, CI/CD</p>
                 </div>
-                <div class="tech-category">
-                    <h4>Security</h4>
-                    <p>Secure API design, cloud security best practices</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Enterprise Partner -->
-    <section class="enterprise-partner">
-        <div class="container">
-            <div class="partner-content">
-                <h2>Enterprise AI & Digital Consulting Partner</h2>
-                <p>As organizations worldwide accelerate digital transformation initiatives, SSRD Tech Solutions LLP
-                    provides the expertise, engineering excellence, and AI innovation required to stay competitive in a
-                    rapidly evolving technology landscape.</p>
-                <p class="partner-tagline">We empower CIOs, CTOs, and digital leaders to build intelligent systems that
-                    scale globally.</p>
             </div>
         </div>
     </section>
@@ -308,20 +291,21 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <div class="section-header">
-                <h2>Contact SSRD Tech Solutions LLP</h2>
-                <p>Partner with a global AI & digital engineering consulting firm committed to innovation and
-                    excellence.</p>
-            </div>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <span class="contact-icon">📧</span>
-                    <a href="mailto:contact@ssrdtechsolutions.com">contact@ssrdtechsolutions.com</a>
+            <div class="contact-content">
+                <h2>Partner With SSRD Tech Solutions</h2>
+                <p>Ready to transform your enterprise technology infrastructure? Let's discuss how we can help.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="icon">📧</span>
+                        <a href="mailto:contact@ssrdtechsolutions.com">contact@ssrdtechsolutions.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">🌐</span>
+                        <a href="https://www.ssrdtechsolutions.com">www.ssrdtechsolutions.com</a>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <span class="contact-icon">🌐</span>
-                    <a href="https://www.ssrdtechsolutions.com" target="_blank">www.ssrdtechsolutions.com</a>
-                </div>
+                <p class="tagline">Empowering CIOs, CTOs, and digital leaders to build intelligent systems that scale
+                    globally.</p>
             </div>
         </div>
     </section>
@@ -330,7 +314,6 @@
     <footer class="footer">
         <div class="container">
             <p>&copy; 2026 SSRD Tech Solutions LLP. All rights reserved.</p>
-            <p>Global AI & Digital Engineering Consulting Firm</p>
         </div>
     </footer>
 
@@ -344,24 +327,20 @@
             mobileMenuToggle.classList.toggle('active');
         });
 
-        // Smooth scrolling for anchor links
+        // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                    // Close mobile menu if open
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     navMenu.classList.remove('active');
                     mobileMenuToggle.classList.remove('active');
                 }
             });
         });
 
-        // Add scroll effect to navbar
+        // Navbar scroll effect
         window.addEventListener('scroll', () => {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 50) {
@@ -369,6 +348,24 @@
             } else {
                 navbar.classList.remove('scrolled');
             }
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.service-row, .industry-card, .feature-card, .approach-step').forEach(el => {
+            observer.observe(el);
         });
     </script>
 </body>
