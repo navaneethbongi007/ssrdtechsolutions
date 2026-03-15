@@ -30,12 +30,33 @@
                     <span></span>
                 </button>
                 <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#training">Training</a></li>
+                    <li><a href="#case-studies">Case Studies</a></li>
                     <li><a href="#industries">Industries</a></li>
-                    <li><a href="#why-ssrd">Why Us</a></li>
-                    <li><a href="#approach">Approach</a></li>
-                    <li><a href="#contact" class="cta-btn">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="cta-btn">Contact Us</a></li>
+                    <li>
+                        <button class="theme-toggle" aria-label="Toggle dark mode" id="theme-toggle">
+                            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                style="display: none;">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                        </button>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -48,13 +69,12 @@
                 <h1 class="hero-title">Powering Enterprise Digital Transformation</h1>
                 <p class="hero-subtitle">Global AI & Digital Engineering Consulting Firm</p>
                 <p class="hero-description">
-                    SSRD Tech Solutions LLP delivers enterprise-grade AI solutions, cloud transformation services,
-                    and scalable digital engineering systems. We help organizations modernize legacy infrastructure,
-                    implement intelligent automation, and build secure, high-performance applications.
+                    We help organizations modernize legacy infrastructure, implement intelligent automation, and build
+                    secure, high-performance applications.
                 </p>
                 <div class="hero-cta">
-                    <a href="#contact" class="btn btn-primary">Get Started</a>
-                    <a href="#services" class="btn btn-outline">Our Services</a>
+                    <a href="#contact" class="btn btn-primary">Speak with Consultants</a>
+                    <a href="#services" class="btn btn-outline">Explore Solutions</a>
                 </div>
             </div>
         </div>
@@ -64,25 +84,24 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2>Enterprise Digital Transformation Services</h2>
-                <p>Comprehensive technology solutions for modern enterprises</p>
+                <h2>Enterprise Digital Services</h2>
+                <p>Future-ready technology solutions aligned with your strategic goals.</p>
             </div>
 
             <!-- AI Solutions - Image Left -->
             <div class="service-row">
                 <div class="service-image">
-                    <img src="images/ai-human.png" alt="AI Solutions for Enterprises - Team analyzing data">
+                    <img src="images/ai-human-indian.png"
+                        alt="AI Solutions for Enterprises - Indian team analyzing data">
                 </div>
                 <div class="service-content">
-                    <h3>AI Solutions for Enterprises</h3>
-                    <p class="service-intro">We design and implement enterprise AI systems that unlock operational
-                        intelligence and automation.</p>
+                    <h3>AI Solutions</h3>
+                    <p class="service-intro">Unlock operational intelligence and automation.</p>
                     <ul class="service-list">
-                        <li>AI Chatbots & Conversational AI Platforms</li>
-                        <li>Document Intelligence & RAG-based Systems</li>
-                        <li>Predictive Analytics & Machine Learning Integration</li>
-                        <li>AI-driven Process Automation</li>
-                        <li>Enterprise Knowledge Management Systems</li>
+                        <li>AI Chatbots & Agents</li>
+                        <li>RAG-based Systems</li>
+                        <li>Predictive Analytics</li>
+                        <li>Process Automation</li>
                     </ul>
                 </div>
             </div>
@@ -90,93 +109,112 @@
             <!-- Cloud Transformation - Image Right -->
             <div class="service-row service-row-reverse">
                 <div class="service-image">
-                    <img src="images/cloud-human.png" alt="Cloud Transformation Services - Server Room">
+                    <img src="images/cloud-human-indian.png"
+                        alt="Cloud Transformation Services - Indian Cloud Architect">
                 </div>
                 <div class="service-content">
-                    <h3>Cloud Transformation & Migration</h3>
-                    <p class="service-intro">As a trusted cloud consulting partner, we help enterprises migrate,
-                        modernize, and optimize their cloud environments.</p>
+                    <h3>Cloud Transformation</h3>
+                    <p class="service-intro">Migrate, modernize, and optimize cloud environments.</p>
                     <ul class="service-list">
-                        <li>AWS, Azure, and Google Cloud Architecture</li>
-                        <li>Cloud Migration Strategy & Execution</li>
-                        <li>Multi-Cloud & Hybrid Cloud Solutions</li>
-                        <li>Cloud Security & Governance</li>
-                        <li>Infrastructure as Code (IaC) Implementation</li>
-                        <li>DevOps & CI/CD Automation</li>
+                        <li>AWS / Azure / GCP</li>
+                        <li>Cloud Migration Strategy</li>
+                        <li>DevOps & CI/CD</li>
+                        <li>Cloud Security</li>
                     </ul>
                 </div>
             </div>
 
-            <!-- Enterprise Application Development - Image Left -->
+            <!-- App Development - Image Left -->
             <div class="service-row">
                 <div class="service-image">
-                    <img src="images/app-dev-human.png" alt="Enterprise Application Development - Team Coding">
+                    <img src="images/app-dev-human-indian.png"
+                        alt="Enterprise Application Development - Indian Team Coding">
                 </div>
                 <div class="service-content">
-                    <h3>Enterprise Application Development</h3>
-                    <p class="service-intro">We build secure, scalable, and high-performance enterprise applications.
-                    </p>
+                    <h3>App Development</h3>
+                    <p class="service-intro">Secure, scalable, and high-performance applications.</p>
                     <ul class="service-list">
-                        <li>Custom Web Application Development (React, Next.js)</li>
-                        <li>Backend Engineering (Node.js, .NET, Python)</li>
-                        <li>Microservices & API Architecture</li>
-                        <li>Enterprise SaaS Platforms</li>
-                        <li>Mobile App Development (React Native)</li>
-                        <li>Secure System Integrations</li>
+                        <li>Custom Web Apps (React)</li>
+                        <li>Microservices (Node/.NET)</li>
+                        <li>Enterprise SaaS</li>
+                        <li>Mobile Apps</li>
                     </ul>
                 </div>
             </div>
 
-            <!-- Legacy System Modernization - Image Right -->
+            <!-- Legacy Modernization - Image Right -->
             <div class="service-row service-row-reverse">
                 <div class="service-image">
-                    <img src="images/legacy-human.png" alt="Legacy System Modernization - Strategic Planning">
+                    <img src="images/legacy-human-indian.png"
+                        alt="Legacy System Modernization - Indian Strategic Planning">
                 </div>
                 <div class="service-content">
-                    <h3>Legacy System Modernization</h3>
+                    <h3>Legacy Modernization</h3>
                     <p class="service-intro">Modernize outdated systems without disrupting operations.</p>
                     <ul class="service-list">
-                        <li>Legacy Application Re-Architecture</li>
-                        <li>Cloud-Native Transformation</li>
-                        <li>Monolith to Microservices Migration</li>
-                        <li>Performance Optimization</li>
-                        <li>System Refactoring & Replatforming</li>
+                        <li>Application Re-Architecture</li>
+                        <li>Cloud-Native Shift</li>
+                        <li>System Refactoring</li>
+                        <li>API Integration</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Professional Skill Development Section -->
-    <section id="training" class="training">
+    <!-- About Us Section -->
+    <section id="about" class="about" style="padding: var(--spacing-4xl) 0; background: var(--color-bg-light);">
         <div class="container">
             <div class="section-header">
-                <h2>Professional Skill Development</h2>
-                <p>Empowering professionals with industry-relevant technical skills</p>
+                <h2>About SSRD Tech Solutions</h2>
+                <p>Global AI & Digital Engineering Consulting Firm</p>
             </div>
-            <div class="training-content">
-                <div class="training-image">
-                    <img src="images/training-service.png" alt="Professional Skill Development Training Session">
+            <div class="about-content"
+                style="max-width: 800px; margin: 0 auto; text-align: center; line-height: 1.8; color: var(--color-text-light); font-size: 1.1rem;">
+                <p style="margin-bottom: 1.5rem;">
+                    <strong>SSRD Tech Solutions LLP</strong> is a global technology consulting company delivering
+                    enterprise-grade AI solutions, cloud transformation services, and scalable digital engineering
+                    systems. We help organizations modernize legacy infrastructure, implement intelligent automation,
+                    and build secure, high-performance applications that drive measurable business outcomes.
+                </p>
+                <p>
+                    Whether you are a fast-growing enterprise or a global organization undergoing digital
+                    transformation, SSRD delivers future-ready technology solutions aligned with your strategic goals,
+                    empowering CIOs, CTOs, and digital leaders to build intelligent systems that scale globally.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies"
+        style="padding: var(--spacing-4xl) 0; background: var(--color-bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Success Stories</h2>
+                <p>Real-world impact delivered for our global clients.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Healthcare</h3>
+                    <h4 style="font-size: 1.1rem; color: var(--color-primary); margin-bottom: 0.5rem;">Patient Data
+                        Interoperability</h4>
+                    <p style="margin-bottom: 1rem;">Unified 50M+ patient records for a major hospital network using FHIR
+                        standards and Azure Health Data Services.</p>
                 </div>
-                <div class="training-details">
-                    <h3>Specialized Technical Training</h3>
-                    <p class="service-intro">We offer comprehensive training programs designed to bridge the gap between
-                        academic knowledge and industry requirements.</p>
-
-                    <div class="legal-notice">
-                        <h4>Program Classification</h4>
-                        <p>Paid software courses fall under:</p>
-                        <ul>
-                            <li>IT Consultancy</li>
-                            <li>Skill Development / Knowledge Transfer</li>
-                            <li>Allied & Incidental IT Services</li>
-                        </ul>
-                    </div>
-
-                    <div class="warning-box">
-                        <p><strong>Note:</strong> Training is provided as part of professional skill development
-                            services. No certification is issued.</p>
-                    </div>
+                <div class="feature-card">
+                    <h3>FinTech</h3>
+                    <h4 style="font-size: 1.1rem; color: var(--color-primary); margin-bottom: 0.5rem;">AI-Driven Fraud
+                        Detection</h4>
+                    <p style="margin-bottom: 1rem;">Implemented a real-time machine learning pipeline that reduced
+                        transaction fraud false positives by 40%.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Logistics</h3>
+                    <h4 style="font-size: 1.1rem; color: var(--color-primary); margin-bottom: 0.5rem;">Supply Chain
+                        Optimization</h4>
+                    <p style="margin-bottom: 1rem;">Built a predictive analytics engine to optimize route planning,
+                        cutting fuel costs by 15% for a global logistics firm.</p>
                 </div>
             </div>
         </div>
@@ -194,33 +232,29 @@
                     <div class="industry-icon-img">
                         <img src="images/icon-healthcare.png" alt="Healthcare Icon">
                     </div>
-                    <h4>Healthcare & PBM</h4>
+                    <h4>Healthcare</h4>
                 </div>
                 <div class="industry-card">
                     <div class="industry-icon-img">
-                        <img src="images/icon-finance.png" alt="Financial Services Icon">
+                        <img src="images/icon-finance.png" alt="FinTech Icon">
                     </div>
-                    <h4>Financial Services</h4>
+                    <h4>FinTech</h4>
                 </div>
                 <div class="industry-card">
                     <div class="industry-icon-img">
                         <img src="images/icon-retail.png" alt="Retail Icon">
                     </div>
-                    <h4>Retail & E-Commerce</h4>
+                    <h4>Retail</h4>
                 </div>
                 <div class="industry-card">
                     <div class="industry-icon-img">
-                        <img src="images/icon-saas.png" alt="Enterprise SaaS Icon">
+                        <img src="images/icon-saas.png" alt="SaaS Icon">
                     </div>
-                    <h4>Enterprise SaaS</h4>
+                    <h4>SaaS</h4>
                 </div>
                 <div class="industry-card">
                     <div class="industry-icon">🚚</div>
-                    <h4>Logistics & Supply Chain</h4>
-                </div>
-                <div class="industry-card">
-                    <div class="industry-icon">🚀</div>
-                    <h4>Technology Startups</h4>
+                    <h4>Logistics</h4>
                 </div>
             </div>
         </div>
@@ -231,144 +265,115 @@
         <div class="container">
             <div class="section-header">
                 <h2>Why Global Enterprises Choose SSRD</h2>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-number">01</div>
-                    <h3>Enterprise-Grade Architecture</h3>
-                    <p>Secure, scalable systems aligned with global IT governance standards.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-number">02</div>
-                    <h3>AI-First Engineering</h3>
-                    <p>Integrate artificial intelligence into core business systems for intelligent automation.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-number">03</div>
-                    <h3>Secure & Compliant</h3>
-                    <p>Security, data privacy, and regulatory compliance embedded into every project.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-number">04</div>
-                    <h3>Agile Delivery</h3>
-                    <p>Structured delivery models with transparency, milestones, and measurable KPIs.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-number">05</div>
-                    <h3>Strategic Partnership</h3>
-                    <p>Build sustainable technology ecosystems, not just short-term projects.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Approach Section -->
-    <section id="approach" class="approach">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Approach</h2>
-                <p class="approach-subtitle">Discover → Architect → Build → Deploy → Optimize</p>
+                <p>We deliver enterprise-grade AI solutions, cloud transformation services, and scalable digital
+                    engineering systems aligned with global governance standards.</p>
             </div>
             <div class="approach-grid">
                 <div class="approach-step">
                     <div class="step-number">01</div>
                     <h4>Discover</h4>
-                    <p>Understand enterprise goals, constraints, and architecture</p>
+                    <p>Analyze goals & architecture.</p>
                 </div>
                 <div class="approach-step">
                     <div class="step-number">02</div>
                     <h4>Architect</h4>
-                    <p>Design secure, scalable, cloud-native solutions</p>
+                    <p>Design secure, cloud-native solutions.</p>
                 </div>
                 <div class="approach-step">
                     <div class="step-number">03</div>
                     <h4>Build</h4>
-                    <p>Develop using modern engineering frameworks</p>
+                    <p>Engineer with modern frameworks.</p>
                 </div>
                 <div class="approach-step">
                     <div class="step-number">04</div>
                     <h4>Deploy</h4>
-                    <p>Ensure seamless integration and reliability</p>
+                    <p>Seamless integration & testing.</p>
                 </div>
                 <div class="approach-step">
                     <div class="step-number">05</div>
                     <h4>Optimize</h4>
-                    <p>Continuously improve performance and ROI</p>
+                    <p>Continuous improvement & ROI.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Technology Stack -->
-    <section class="technology">
-        <div class="container">
-            <div class="section-header">
-                <h2>Technology Expertise</h2>
-            </div>
-            <div class="tech-grid">
-                <div class="tech-item">
-                    <div class="tech-icon">💻</div>
-                    <h4>Frontend</h4>
-                    <p>React, Next.js</p>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">⚙️</div>
-                    <h4>Backend</h4>
-                    <p>Node.js, .NET, Python</p>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">📱</div>
-                    <h4>Mobile</h4>
-                    <p>React Native</p>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">☁️</div>
-                    <h4>Cloud</h4>
-                    <p>AWS, Azure, Google Cloud</p>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">🧠</div>
-                    <h4>AI & Data</h4>
-                    <p>OpenAI, RAG, LangChain</p>
-                </div>
-                <div class="tech-item">
-                    <div class="tech-icon">♾️</div>
-                    <h4>DevOps</h4>
-                    <p>Docker, Kubernetes, CI/CD</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="contact-content">
-                <h2>Partner With SSRD Tech Solutions</h2>
-                <p>Ready to transform your enterprise technology infrastructure? Let's discuss how we can help.</p>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <span class="icon">📧</span>
-                        <a href="mailto:contact@ssrdtechsolutions.com">contact@ssrdtechsolutions.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon">🌐</span>
-                        <a href="https://www.ssrdtechsolutions.com">www.ssrdtechsolutions.com</a>
-                    </div>
-                </div>
-                <p class="tagline">Empowering CIOs, CTOs, and digital leaders to build intelligent systems that scale
+                <h2>Start Your Transformation</h2>
+                <p>Partner with a global AI & digital engineering consulting firm.</p>
+                <p class="tagline">We empower CIOs, CTOs, and digital leaders to build intelligent systems that scale
                     globally.</p>
+
+                <div class="footer-contact-form" style="margin-top: 2rem;">
+                    <h3 class="form-title">Get in Touch</h3>
+                    <form action="mailto:contact@ssrdtechsolutions.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Project Details..." rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" style="padding: 4rem 0; background: var(--color-secondary); color: white;">
         <div class="container">
-            <div class="footer-logo">
-                <img src="images/logo.png" alt="SSRD Tech Solutions Logo" class="footer-logo-img">
+            <div class="footer-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="SSRD Tech Logo" style="height: 60px; margin-bottom: 1rem;">
+                    <p style="color: #cbd5e1;">Global AI & Digital Engineering Consulting Firm.</p>
+                </div>
+                <div class="footer-col">
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.5rem;"><a href="#ai-consulting"
+                                style="color: #cbd5e1; text-decoration: none;">AI Consulting</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#cloud-devops"
+                                style="color: #cbd5e1; text-decoration: none;">Cloud & DevOps</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#app-development"
+                                style="color: #cbd5e1; text-decoration: none;">App Development</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#legacy-modernization"
+                                style="color: #cbd5e1; text-decoration: none;">Legacy Modernization</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: #cbd5e1; text-decoration: none;">AI
+                                & Automation</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#"
+                                style="color: #cbd5e1; text-decoration: none;">Cloud Engineering</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#about"
+                                style="color: #cbd5e1; text-decoration: none;">About</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#case-studies"
+                                style="color: #cbd5e1; text-decoration: none;">Case Studies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p><a href="mailto:contact@ssrdtechsolutions.com"
+                            style="color: #cbd5e1; text-decoration: none;">contact@ssrdtechsolutions.com</a></p>
+                </div>
             </div>
-            <p>&copy; 2026 SSRD Tech Solutions LLP. All Rights Reserved.</p>
+            <div class="footer-bottom" style="border-top: 1px solid #334155; padding-top: 1.5rem; text-align: center;">
+                <p style="color: #94a3b8;">&copy; 2026 SSRD Tech Solutions LLP. All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
 
@@ -421,6 +426,32 @@
 
         document.querySelectorAll('.service-row, .industry-card, .feature-card, .approach-step').forEach(el => {
             observer.observe(el);
+        });
+
+        // Dark Mode Toggle Logic
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const sunIcon = document.querySelector('.sun-icon');
+        const moonIcon = document.querySelector('.moon-icon');
+
+        const currentTheme = localStorage.getItem('theme');
+        if (currentTheme === 'dark') {
+            document.body.classList.add('dark-theme');
+            sunIcon.style.display = 'block';
+            moonIcon.style.display = 'none';
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            let theme = 'light';
+            if (document.body.classList.contains('dark-theme')) {
+                theme = 'dark';
+                sunIcon.style.display = 'block';
+                moonIcon.style.display = 'none';
+            } else {
+                sunIcon.style.display = 'none';
+                moonIcon.style.display = 'block';
+            }
+            localStorage.setItem('theme', theme);
         });
     </script>
 </body>
